@@ -23,7 +23,7 @@ public class QueueImpl<E> implements Queue<E>{
 
     private boolean isFull() {
         // TO-DO
-        return false;
+        //return this.p == this.data.length;
     }
 
     private boolean isEmpty() {
